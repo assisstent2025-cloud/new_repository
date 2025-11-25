@@ -2,5 +2,5 @@
 x = int(input())
 for i in range(x + 1):
     if i % 3 == 0:
-        i += i
         print('сумма чисел деленых на 3 : ', i)
+        i += i
