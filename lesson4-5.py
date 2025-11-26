@@ -54,3 +54,13 @@ for i in range(x + 1):
         print('деление на 3 : ', i)
         i += i
 
+#  сумма чисел деленых на 3 от введенного числа
+
+summa = 0
+number = int(input('введите число : '))
+for i in range(number + 1):
+    if i % 3 == 0:
+        summa += i 
+        print('итоговая сумма : ' , summa)
+        i += 1
+        
