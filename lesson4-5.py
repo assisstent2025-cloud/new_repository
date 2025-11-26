@@ -29,9 +29,9 @@ while num1 < 100:
 
 # сумма введенных чисел
 
-n = int(input('ввод первого числа'))
+n = int(input('ввод первого числа : '))
 for i in range(n):
-    x = int(input('ввод второго числа'))
+    x = int(input('ввод второго числа : '))
     n += x
     print('сумма чисел', n)
     break
@@ -39,7 +39,7 @@ for i in range(n):
 # вывод четных чисел от 0 до введенного числа
 
 q = int(input("...:"))
-print('четные числа до', q)
+print('четные числа до - ', q)
 for i in range(q + 1):
     if i % 2 == 0:
         print(i)
