@@ -47,11 +47,11 @@ for i in range(q + 1):
 # вывод чисел которые делятся на 3
 
 
-number_1 = int(input("...:"))
-number% = 0
 
-for i in range(number_1 + 1):
+#  числа делящийся на 3
+x = int(input())
+for i in range(x + 1):
     if i % 3 == 0:
-        print()
-        number% += i
-        print('счисла: ', number%)
+        print('деление на 3 : ', i)
+        i += i
+
