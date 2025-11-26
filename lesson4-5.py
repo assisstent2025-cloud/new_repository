@@ -38,7 +38,7 @@ for i in range(n):
 
 # вывод четных чисел от 0 до введенного числа
 
-q = int(input("...:"))
+q = int(input('введите число : '))
 print('четные числа до - ', q)
 for i in range(q + 1):
     if i % 2 == 0:
