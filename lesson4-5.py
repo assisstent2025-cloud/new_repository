@@ -1,6 +1,6 @@
 # сумма чисел от 0 до 100
 
-x = 0
+x = 1
 y = 1
 while y <= 100:
     x += y
@@ -9,7 +9,7 @@ while y <= 100:
 
 # не четные числа
 
-num = 0
+num = 1
 while num < 100:
     num += 1
     if num % 2 == 0:
@@ -19,8 +19,8 @@ while num < 100:
 
 # четные числа
 
-num1 = 0
-while num1 < 100:
+num1 = 1
+while num1 < 300:
     num1 += 1
     if num1 % 2 != 0:
         continue
