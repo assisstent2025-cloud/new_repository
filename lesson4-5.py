@@ -44,14 +44,14 @@ for i in range(q + 1):
     if i % 2 == 0:
         print(i)
 
-# вывод cуммы чисел которые делятся на 3
+# вывод чисел которые делятся на 3
 
 
 number_1 = int(input("...:"))
-summa = 0
+number% = 0
 
 for i in range(number_1 + 1):
     if i % 3 == 0:
         print()
-        summa += i
-        print('сумма чисел: ', summa)
+        number% += i
+        print('счисла: ', number%)
